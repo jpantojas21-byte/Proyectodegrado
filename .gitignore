@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb  
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Node.js (proyecto dashboard-financiero separado)
+node_modules/
+npm-debug.log*
+
+# Bases de datos locales
+data/database.sqlite
+data/uploads/
+*.sqlite
+*.db
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+
+# Archivos de datos procesados que no son necesarios para el deploy
+datos_limpios_dashboard.csv
